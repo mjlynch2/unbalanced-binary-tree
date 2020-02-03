@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ef22e6d-a649-4a27-9974-74b57b66b1b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XA8kF2iPjDIpdQh1uZMfmBvGqp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UnbalancedBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnbalancedBT" />
+      <module name="unbalanced-binary-tree.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UnbalancedBT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ef22e6d-a649-4a27-9974-74b57b66b1b4" name="Default Changelist" comment="" />
+      <created>1580477679847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580477679847</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580751413294">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819@0.23.1440.819" timestamp="1580751413294" />
+    <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1580478288459">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.819@0.23.1440.819" timestamp="1580478288459" />
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom" timestamp="1580753151083">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1580753151083" />
+    <state width="1398" height="262" key="GridCell.Tab.0.center" timestamp="1580753151082">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1580753151082" />
+    <state width="1398" height="262" key="GridCell.Tab.0.left" timestamp="1580753151082">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1580753151082" />
+    <state width="1398" height="262" key="GridCell.Tab.0.right" timestamp="1580753151166">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1580753151166" />
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1580753151084">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom/0.23.1440.819@0.23.1440.819" timestamp="1580753151084" />
+    <state width="1398" height="262" key="GridCell.Tab.1.center" timestamp="1580753151084">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.1.center/0.23.1440.819@0.23.1440.819" timestamp="1580753151084" />
+    <state width="1398" height="262" key="GridCell.Tab.1.left" timestamp="1580753151083">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.1.left/0.23.1440.819@0.23.1440.819" timestamp="1580753151083" />
+    <state width="1398" height="262" key="GridCell.Tab.1.right" timestamp="1580753151084">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.819@0.23.1440.819" timestamp="1580753151084" />
+    <state width="1398" height="262" key="GridCell.Tab.2.bottom" timestamp="1580753151085">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.2.bottom/0.23.1440.819@0.23.1440.819" timestamp="1580753151085" />
+    <state width="1398" height="262" key="GridCell.Tab.2.center" timestamp="1580753151085">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.2.center/0.23.1440.819@0.23.1440.819" timestamp="1580753151085" />
+    <state width="1398" height="262" key="GridCell.Tab.2.left" timestamp="1580753151084">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.2.left/0.23.1440.819@0.23.1440.819" timestamp="1580753151084" />
+    <state width="1398" height="262" key="GridCell.Tab.2.right" timestamp="1580753151085">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.2.right/0.23.1440.819@0.23.1440.819" timestamp="1580753151085" />
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1580742747056">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog/0.23.1440.819@0.23.1440.819" timestamp="1580742747056" />
+    <state x="288" y="175" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580753075815">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="288" y="175" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.819@0.23.1440.819" timestamp="1580753075815" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UnbalancedBT.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UnbalancedBT.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UnbalancedBT.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UnbalancedBT.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UnbalancedBT.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
