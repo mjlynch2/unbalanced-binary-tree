@@ -2,16 +2,19 @@ import java.util.logging.Logger;
 
 public class UnbalancedBT {
 
+//    create an empty binary tree
     public UnbalancedBT() {
         head = null;
     }
 
-    static class Node {
+    class Node {
         private int value;
         private Node left, right;
 
         Node(int value) {
             this.value = value;
+            left = null;
+            right = null;
         }
     }
 
@@ -32,12 +35,17 @@ public class UnbalancedBT {
             return false;
         }
         if (nodeToCheck.value > x) {
-            return (find(x, nodeToCheck.right));
-        } else if (nodeToCheck.value < x) {
             return (find(x, nodeToCheck.left));
+        } else if (nodeToCheck.value < x) {
+            return (find(x, nodeToCheck.right));
         } else {
             return true;
         }
+    }
+
+    public void insert(int value){
+        head = insert(value, head);
+        size++;
     }
 
     public Node insert(int valueToAdd, Node nodeToCheck) {
@@ -45,26 +53,25 @@ public class UnbalancedBT {
         if(nodeToCheck == null) {
             return newNode;
         }
+
         if (nodeToCheck.value > valueToAdd) {
-            return (insert(valueToAdd, nodeToCheck.right));
+            nodeToCheck.left = insert(valueToAdd, nodeToCheck.left);
         } else if (nodeToCheck.value < valueToAdd) {
-            return (insert(valueToAdd, nodeToCheck.left));
-        } else {
-            ;
+            nodeToCheck.right = insert(valueToAdd, nodeToCheck.right);
         }
         return nodeToCheck;
     }
 
     public static void main (String[] args) {
         UnbalancedBT t = new UnbalancedBT();
-        t.head = new Node(3);
-        t.insert( 4, t.head );
-        System.out.println("inserted 4");
-        t.insert( 5, t.head);
-        System.out.println("inserted 5");
-        t.insert(1, t.head);
-        System.out.println("inserted 1");
-        t.find(1, t.head);
+        t.insert(3);
+        t.insert(1);
+        t.insert(4);
+        t.insert(7);
+        t.insert(5);
+        t.insert(2);
+        t.insert(12);
+        t.insert(9);
     }
 
 }
