@@ -6,7 +6,7 @@ public class UnbalancedBT {
         head = null;
     }
 
-    class Node {
+    static class Node {
         private int value;
         private Node left, right;
 
@@ -16,7 +16,6 @@ public class UnbalancedBT {
     }
 
     private Node head;
-    private Node curr;
 
     private int size = 0;
 
@@ -28,44 +27,44 @@ public class UnbalancedBT {
         return size;
     }
 
-    public int find(int x) {
-        curr = head;
-        while(curr != null){
-            if(x < curr.value){
-                curr = curr.left;
-            } else if (x > curr.value) {
-                curr = curr.right;
-            } else {
-                return curr.value;
-            }
+    public boolean find(int x, Node nodeToCheck) {
+        if (nodeToCheck == null) {
+            return false;
         }
-        return x;
+        if (nodeToCheck.value > x) {
+            return (find(x, nodeToCheck.right));
+        } else if (nodeToCheck.value < x) {
+            return (find(x, nodeToCheck.left));
+        } else {
+            return true;
+        }
     }
 
-    public void insert(int valueToAdd) {
+    public Node insert(int valueToAdd, Node nodeToCheck) {
         Node newNode = new Node(valueToAdd);
-        if(head == null) {
-            head = newNode;
-//            return;
+        if(nodeToCheck == null) {
+            return newNode;
         }
-
-        if(find(valueToAdd) == valueToAdd) {
-            return;
-        } else if (curr.value < valueToAdd) {
-            curr.left.value = valueToAdd;
+        if (nodeToCheck.value > valueToAdd) {
+            return (insert(valueToAdd, nodeToCheck.right));
+        } else if (nodeToCheck.value < valueToAdd) {
+            return (insert(valueToAdd, nodeToCheck.left));
         } else {
-            curr.right.value = valueToAdd;
+            ;
         }
+        return nodeToCheck;
     }
 
     public static void main (String[] args) {
         UnbalancedBT t = new UnbalancedBT();
-        t.insert( 4);
+        t.head = new Node(3);
+        t.insert( 4, t.head );
         System.out.println("inserted 4");
-        t.insert( 5);
+        t.insert( 5, t.head);
         System.out.println("inserted 5");
-        t.insert(1);
+        t.insert(1, t.head);
         System.out.println("inserted 1");
+        t.find(1, t.head);
     }
 
 }
